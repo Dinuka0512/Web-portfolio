@@ -1,0 +1,120 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 3/6/2025$ 2:18 PM$
+ * Project: untitled$
+ * --------------------------------------------
+ **/
+
+main{
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main div:nth-child(1){
+    position: relative;
+}
+
+main div{
+    position: relative;
+    margin-top: 80px;
+    width: 48vw;
+    height: 85vh;;
+    /*border: 5px solid white;*/
+    /*background-color: #ff253a*/
+}
+
+#mainImage{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+p{
+    font-weight: lighter;
+}
+
+h1,h3{
+    margin: 0;
+}
+
+#dinuka{
+    color: goldenrod;
+}
+
+main div>section>button{
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover{
+    box-shadow: rgba(223, 220, 220, 0.4) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
+}
+
+main div:nth-child(2)>p{
+    text-align: justify-all;
+}
+
+section{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+@media all and (min-width: 1000px) {
+    #mainImage{
+        width: 500px;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    #mainImage{
+        width: 600px;
+    }
+}
+
+@media all and (min-width: 1700px) {
+    #mainImage{
+        width: 1000px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    main div:nth-child(1){
+        margin-top: 110px;
+        grid-row: 1;
+    }
+
+
+    main div:nth-child(2){
+        margin-top: 0;
+        grid-row: 2;
+        height: fit-content;
+    }
+
+    main div{
+        width: 90vw;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main>div:nth-child(2)>section{
+        position: relative;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+}

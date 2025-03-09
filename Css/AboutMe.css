@@ -1,0 +1,100 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 3/8/2025$ 8:53 AM$
+ * Project: untitled$
+ * --------------------------------------------
+ **/
+
+#aboutMe{
+    width: 95vw;
+    height: fit-content;
+    align-items: center;
+    /*background-color: red;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.title{
+    margin: 30px;
+    position: relative;
+}
+
+#squre{
+    width: 7px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+}
+
+.title>p, .title>h1{
+    margin: 0 0 0 13px;
+}
+
+.content>ul>li>span{
+    color: lightgray;
+}
+
+.content>ul>li{
+    margin-bottom: 10px;
+}
+
+.about-body{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.about{
+    width: 45vw;
+    height: 70vh;
+    background-color: red;
+    position: relative;
+}
+
+#image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto 15px auto;
+}
+
+#downloadBtn{
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#Container{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 20px;
+}
+
+#itemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#itemContainer>div{
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border: white solid 1px;
+}

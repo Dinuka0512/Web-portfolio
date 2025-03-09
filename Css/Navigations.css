@@ -1,0 +1,74 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 3/6/2025$ 9:33 AM$
+ * Project: untitled$
+ * --------------------------------------------
+ **/
+
+nav{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(31, 31, 31, 0.88);
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5%;
+    margin-left: 20px;
+}
+
+
+nav>div>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav>div:nth-child(2){
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+nav>div:nth-child(3){
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 15px;
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    nav>div:nth-child(2){
+        display: none;
+    }
+
+    #logo{
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 15%;
+    }
+    nav>div:nth-child(3){
+        display: block;
+    }
+}
