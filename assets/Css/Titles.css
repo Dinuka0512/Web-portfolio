@@ -1,0 +1,27 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 3/12/2025$ 9:12 AM$
+ * Project: untitled$
+ * --------------------------------------------
+ **/
+
+.title{
+    margin: 30px;
+    position: relative;
+}
+
+#squre{
+    width: 7px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+}
+
+.title>p, .title>h1{
+    margin: 0 0 0 13px;
+}

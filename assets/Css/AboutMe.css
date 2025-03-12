@@ -22,23 +22,7 @@
     margin-left: 30px;
 }
 
-.title{
-    margin: 30px;
-    position: relative;
-}
 
-#squre{
-    width: 7px;
-    height: 60px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    border-radius: 2px;
-}
-
-.title>p, .title>h1{
-    margin: 0 0 0 13px;
-}
 
 .content>ul>li>span{
     color: lightgray;
@@ -58,7 +42,7 @@
 .about{
     width: 45vw;
     height: 70vh;
-    background-color: red;
+    /*background-color: red;*/
     position: relative;
 }
 
