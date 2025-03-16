@@ -64,7 +64,7 @@ main div:nth-child(2)>p{
     text-align: justify-all;
 }
 
-section{
+.sec01{
     width: 90%;
     height: fit-content;
     position: absolute;

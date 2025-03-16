@@ -13,7 +13,7 @@
     position: relative;
 }
 
-#squre{
+.squre{
     width: 7px;
     height: 60px;
     background-color: white;
