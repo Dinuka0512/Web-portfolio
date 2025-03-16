@@ -115,3 +115,16 @@
         width: 75%;
     }
 }
+
+@media all and (max-width: 800px) {
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        width: 80vw;
+        background-color: blue;
+    }
+}
+

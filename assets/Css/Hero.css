@@ -50,6 +50,7 @@ h1,h3{
 }
 
 main div>section>button{
+    margin-bottom: 5px;
     padding: 5px 20px 5px 20px;
     border: none;
     border-radius: 7px;
@@ -64,7 +65,7 @@ main div:nth-child(2)>p{
 }
 
 section{
-    width: 100%;
+    width: 90%;
     height: fit-content;
     position: absolute;
     top: 0;
