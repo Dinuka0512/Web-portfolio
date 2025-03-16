@@ -116,6 +116,16 @@ section{
         text-align: center;
         margin-bottom: 50px;
     }
+}
 
+@media all and (max-width: 800px) {
+    #hero>div:nth-child(1){
+        margin-top: 1px;
+        height: 120vw;
+    }
 
+    #mainImage{
+        margin-bottom: 0px;
+        margin-top: 100px;
+    }
 }
