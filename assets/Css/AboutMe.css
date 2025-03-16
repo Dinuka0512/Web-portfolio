@@ -172,3 +172,27 @@
         margin-top: 110px;
     }
 }
+
+@media all and (max-width: 360px) {
+    .Main_image{
+        margin-top: 200px;
+    }
+}
+
+@media all and (min-width: 2000px){
+    .Main_image{
+        margin-top: 100px;
+    }
+}
+
+@media all and (min-width: 2400px) {
+    .Main_image{
+        margin-top: 150px;
+    }
+}
+
+@media all and (min-width: 2800px) {
+    .Main_image{
+        margin-top: 205px;
+    }
+}
