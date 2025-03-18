@@ -48,7 +48,7 @@ section>ul>li{
 .about{
     width: 45vw;
     height: fit-content;
-    /*background-color: red;*/
+    background-color: red;
     position: relative;
 }
 
