@@ -1,6 +1,18 @@
-.about_body{
+:root{
+
+}
+
+.aboutbody{
     width: 100vw;
     height: fit-content;
     background-color: #ff253a;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+.about{
+    width: 48vw;
+    height: fit-content;
+    background-color: blue;
+}
