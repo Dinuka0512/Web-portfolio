@@ -9,10 +9,23 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    gap: 10px;
 }
 
 .about{
     width: 48vw;
     height: fit-content;
     background-color: blue;
+}
+
+#section>p{
+    text-align: justify;
+}
+
+#section>ul>li{
+    margin-bottom: 15px;
+}
+
+#section>ul>li>span{
+    color: darkgray;
 }
