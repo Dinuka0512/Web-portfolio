@@ -19,7 +19,8 @@
 }
 
 #section>p{
-    text-align: justify;
+    text-align: justify-all;
+    margin-bottom: 20px;
 }
 
 #section>ul>li{
@@ -37,3 +38,25 @@
     display: flex;
     justify-content: space-between;
 }
+
+#downloadBtn{
+    width: fit-content;
+    height: fit-content;
+    padding : 15px 20px;
+    border-radius: 5px;
+    border: none;
+    align-self: center;
+}
+
+#itemContainer{
+    display: flex;
+    height: fit-content;
+    background-color: green;
+    align-self: center;
+}
+
+#itemContainer .image{
+    font-size: 28px;
+    margin: 5px;
+}
+
