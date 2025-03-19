@@ -9,15 +9,18 @@
  **/
 
 .title{
-    margin: 20px 0 20px 30px;
+    height: fit-content;
+    width: fit-content;
     position: relative;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 .squre{
-    width: 7px;
-    height: 60px;
-    background-color: white;
+    width: 8px;
+    height: 55px;
     position: absolute;
+    background-color: white;
     left: 0;
     border-radius: 2px;
 }
