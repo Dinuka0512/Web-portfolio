@@ -12,7 +12,7 @@
     width: 100%;
     height: fit-content;
     align-items: center;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     /*background-color: yellow;*/
@@ -47,7 +47,7 @@ section>ul>li{
 
 .about{
     width: 45vw;
-    height: fit-content;
+    /*height: fit-content;*/
     background-color: red;
     position: relative;
 }
