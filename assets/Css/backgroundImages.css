@@ -9,8 +9,7 @@
  **/
 
 #BgImage01{
-    width: 98vw;
+    width: 100vw;
     height: fit-content;
     position: relative;
-    /*background-color: #ff253a;*/
 }
