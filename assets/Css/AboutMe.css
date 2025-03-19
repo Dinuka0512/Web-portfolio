@@ -8,7 +8,6 @@
     background-color: #ff253a;
     display: flex;
     justify-content: center;
-    align-content: center;
     gap: 10px;
 }
 
@@ -16,6 +15,7 @@
     width: 48vw;
     height: fit-content;
     background-color: blue;
+    align-self: center;
 }
 
 #section>p{
@@ -60,3 +60,12 @@
     margin: 5px;
 }
 
+.Main_image{
+    display: flex;
+    justify-content: center;
+}
+
+.Main_image>#image{
+    width: 50%;
+    align-self: center;
+}
