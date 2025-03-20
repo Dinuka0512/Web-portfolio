@@ -24,3 +24,13 @@
 #MyEdu>.title>.squre{
     margin-left: 30px;
 }
+
+#EduBody{
+    display: flex;
+    justify-content: center;
+}
+
+#cardContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
