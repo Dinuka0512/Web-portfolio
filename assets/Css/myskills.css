@@ -4,9 +4,6 @@
 }
 
 #SkillIconContainer{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
     height: fit-content;
     width: 90vw;
     /*background-color: gray;*/
@@ -20,7 +17,33 @@
     width: fit-content;
     height: fit-content;
     /*background-color: lightgray;*/
-    color: rgba(128, 128, 128, 0.65);
+    color: rgba(171, 171, 171, 0.65);
     font-size: 40px;
     text-align: center;
+    animation-name: rotate;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#mask{
+    gap: 60px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    opacity: 1;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-2800px);
+    }
 }
